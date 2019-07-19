@@ -1,0 +1,9 @@
+[Unit]
+Description=Wallpaper slide
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/wallee
+
+[Install]
+WantedBy=default.target
