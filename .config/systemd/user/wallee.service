@@ -6,4 +6,4 @@ Type=simple
 ExecStart=/usr/bin/wallee
 
 [Install]
-WantedBy=default.target
+WantedBy=xorg.target
