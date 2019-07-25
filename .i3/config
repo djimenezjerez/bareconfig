@@ -404,5 +404,6 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86Tools workspace "0" exec termite -e "tmux new-session -A -s music mpsyt"
 bindsym XF86Calculator exec termite -e 'bc -l'
+bindsym XF86Mail exec termite -e "calcurse"
 bindsym Mod2+Pause exec playerctl volume 0.1+
 bindsym Mod2+Scroll_Lock exec playerctl volume 0.1-
