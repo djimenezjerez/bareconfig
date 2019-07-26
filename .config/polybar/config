@@ -1777,7 +1777,7 @@ menu-2-1-exec = menu-open-0
 [module/player-mpris]
 type = custom/script
 exec = ~/.config/polybar/scripts/player-mpris.sh
-interval = 3
+interval = 1
 click-left = playerctl previous
 click-right = playerctl next
 click-middle = playerctl play-pause
