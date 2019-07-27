@@ -116,5 +116,5 @@ alias yay='yay --color=auto'
 alias tail='grc tail -f'
 
 # Laradock
-alias pa='./laradock/docker-compose exec workspace php artisan'
-alias pc='./laradock/docker-compose exec workspace composer'
+alias pa='docker-compose exec workspace php artisan'
+alias pc='docker-compose exec workspace composer'
