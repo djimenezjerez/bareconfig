@@ -1,9 +1,10 @@
 [Unit]
 Description=Wallpaper slide
+After=lightdm.service
 
 [Service]
 Type=simple
 ExecStart=/usr/bin/wallee
 
 [Install]
-WantedBy=xorg.target
+WantedBy=multi-user.target
