@@ -3,3 +3,5 @@
 	email = djimenezjerez@gmail.com
 [core]
 	editor = vim
+[diff]
+	ignoreSubmodules = all
